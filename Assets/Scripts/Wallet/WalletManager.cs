@@ -9,6 +9,11 @@ public class WalletManager : MonoBehaviour, IProvidable
         ServiceProvider.Register(this);
     }
 
+    private void OnApplicationQuit()
+    {
+        walletData.Reset();
+    }
+
     public void AddReward(RewardConfig config)
     {
 

@@ -957,13 +957,13 @@ MonoBehaviour:
   - rewardConfig: {fileID: 11400000, guid: 19e4da6417c8746c1af0e55d935ffce0, type: 2}
     amount: 1
   - rewardConfig: {fileID: 11400000, guid: 97040f99f9c574623aa63c699fdff03a, type: 2}
+    amount: 2
+  - rewardConfig: {fileID: 11400000, guid: b43646ff2da1b4e07866d060c83bbfc4, type: 2}
     amount: 1
   - rewardConfig: {fileID: 11400000, guid: 97040f99f9c574623aa63c699fdff03a, type: 2}
     amount: 3
-  - rewardConfig: {fileID: 11400000, guid: ff85970c0b73e4eaaa4d374d9dc6b406, type: 2}
-    amount: 2
-  - rewardConfig: {fileID: 11400000, guid: b43646ff2da1b4e07866d060c83bbfc4, type: 2}
-    amount: 9
+  - rewardConfig: {fileID: 11400000, guid: 19e4da6417c8746c1af0e55d935ffce0, type: 2}
+    amount: 4
   topCount: 4
   bottomCount: 4
   leftCount: 3

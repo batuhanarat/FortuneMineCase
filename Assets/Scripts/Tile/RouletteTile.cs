@@ -172,17 +172,17 @@ public class RouletteTile : MonoBehaviour
     {
         if (backgroundRenderer == null) return;
 
-        if (isCollected)
+        if (isHighlighted)
         {
-            backgroundRenderer.sprite = collectedBackgroundSprite;
+            backgroundRenderer.sprite = highlightedBackgroundSprite;
         }
         else if (isSelected)
         {
             backgroundRenderer.sprite = selectedBackgroundSprite;
         }
-        else if (isHighlighted)
+        else if (isCollected)
         {
-            backgroundRenderer.sprite = highlightedBackgroundSprite;
+            backgroundRenderer.sprite = collectedBackgroundSprite;
         }
         else
         {
