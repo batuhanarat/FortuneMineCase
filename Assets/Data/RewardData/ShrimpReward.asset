@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ShrimpReward
   m_EditorClassIdentifier: 
   rewardName: Shrimp
-  rewardType: 9
+  rewardType: 10
   rewardSprite: {fileID: 21300000, guid: 2e5d90287c7f5426aa5286946a7ca494, type: 3}
-  amount: 0
+  amount: 1

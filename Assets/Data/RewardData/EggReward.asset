@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: EggReward
   m_EditorClassIdentifier: 
   rewardName: Egg
-  rewardType: 1
+  rewardType: 2
   rewardSprite: {fileID: 21300000, guid: 900a2897cefe0472cb128e0b90b5d907, type: 3}
-  amount: 0
+  amount: 1

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GodFoodReward
   m_EditorClassIdentifier: 
   rewardName: God Food
-  rewardType: 3
+  rewardType: 4
   rewardSprite: {fileID: 21300000, guid: 404f63073313c4686bfb44f584955c74, type: 3}
-  amount: 0
+  amount: 1

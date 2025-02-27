@@ -7,13 +7,16 @@ public class ServiceProvider
 {
     private static readonly Dictionary<Type, IProvidable> _registerDictionary = new();
 
+    public static AssetLibrary AssetLibrary => GetManager<AssetLibrary>();
+    public static WalletManager WalletManager => GetManager<WalletManager>();
+    public static UIManager UIManager => GetManager<UIManager>();
+    public static SceneLoaderManager ScenesManager => GetManager<SceneLoaderManager>();
+
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     public static void InitializeServiceProvider()
     {
-       // InitializeConfiguration();
         InitializeCoreServices();
-       // RegisterSceneEvents();
     }
 
     private static void InitializeCoreServices()
@@ -27,8 +30,7 @@ public class ServiceProvider
 
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-     //   Board?.Reset();
-       // PieceManager?.Reset();
+
     }
 
     private static T GetManager<T>() where T : class, IProvidable

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FigReward
   m_EditorClassIdentifier: 
   rewardName: Fig
-  rewardType: 2
+  rewardType: 3
   rewardSprite: {fileID: 21300000, guid: a90801c849dc24337b82169bb62a5e96, type: 3}
-  amount: 0
+  amount: 4

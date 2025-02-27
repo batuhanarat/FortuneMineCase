@@ -1,6 +1,7 @@
 
 public enum RewardType
 {
+    None,
     Donut,
     Egg,
     Fig,

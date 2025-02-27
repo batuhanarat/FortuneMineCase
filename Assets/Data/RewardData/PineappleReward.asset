@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PineappleReward
   m_EditorClassIdentifier: 
   rewardName: Pineapple
-  rewardType: 8
+  rewardType: 9
   rewardSprite: {fileID: 21300000, guid: d8c8964972c2d4ed0b96d38c3ec08d50, type: 3}
   amount: 0

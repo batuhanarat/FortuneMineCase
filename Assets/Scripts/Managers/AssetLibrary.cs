@@ -8,10 +8,13 @@ public class AssetLibrary : MonoBehaviour, IProvidable
     [SerializeField] private GameObject RoulettePrefab;
     [SerializeField] private GameObject WalletPrefab;
 
+    [SerializeField]  private Transform TileRoot;
+
 
     private  void Awake()
     {
         ServiceProvider.Register(this);
+
     }
     public T GetAsset<T>(AssetType assetType) where T : class
     {

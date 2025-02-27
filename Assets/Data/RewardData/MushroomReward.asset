@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MushroomReward
   m_EditorClassIdentifier: 
   rewardName: Mushroom
-  rewardType: 6
+  rewardType: 7
   rewardSprite: {fileID: 21300000, guid: 3553726b535a44098bd41bb25c752b8e, type: 3}
-  amount: 0
+  amount: 3

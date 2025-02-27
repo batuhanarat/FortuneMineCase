@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HotDogReward
   m_EditorClassIdentifier: 
   rewardName: Hot Dog
-  rewardType: 5
+  rewardType: 6
   rewardSprite: {fileID: 21300000, guid: 1a9ce5edc111b4d498c3e85ab81e43ff, type: 3}
-  amount: 0
+  amount: 1

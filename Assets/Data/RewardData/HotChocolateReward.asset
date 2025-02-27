@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HotChocolateReward
   m_EditorClassIdentifier: 
   rewardName: Hot Chocolate
-  rewardType: 4
+  rewardType: 5
   rewardSprite: {fileID: 21300000, guid: da5f3846b14a944b9ab2038ce8c68a79, type: 3}
-  amount: 0
+  amount: 2
